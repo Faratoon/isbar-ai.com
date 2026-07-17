@@ -1,0 +1,36 @@
+import {NextRequest, NextResponse} from 'next/server';
+
+const courses = [
+  {id: 1, title_so: 'Aasaaska AI Chatbot', title_en: 'AI Chatbot Basics', level: 'beginner', desc_so: 'Baro sida loo dhiso chatbot-kii ugu horreeyay', desc_en: 'Learn how to build your first AI chatbot', lessons: 10, duration: '2 weeks'},
+  {id: 2, title_so: 'Farshaxanka Prompt-ka', title_en: 'Prompt Engineering', level: 'beginner', desc_so: 'Qabso farshaxanka qorista prompt-yada waxtarka leh', desc_en: 'Master the art of writing effective prompts', lessons: 8, duration: '1 week'},
+  {id: 3, title_so: 'Tafatirka Video-ga AI', title_en: 'AI Video Editing', level: 'intermediate', desc_so: 'Ku tafatir video-yada adigoo isticmaalaya qalabka AI', desc_en: 'Edit videos using AI tools like InVideo', lessons: 10, duration: '2 weeks'},
+  {id: 4, title_so: 'Dropshipping iyo AI', title_en: 'Dropshipping with AI', level: 'intermediate', desc_so: 'Bilow ganacsi dropshipping ah oo AI ku shaqeeya', desc_en: 'Start dropshipping business with AI automation', lessons: 10, duration: '2 weeks'},
+  {id: 5, title_so: 'Agents-ka AI & Otomaatigaynta', title_en: 'AI Agents & Automation', level: 'advanced', desc_so: 'U dhis agents AI ah oo iskii u shaqeeya ganacsigaaga', desc_en: 'Build autonomous AI agents for your business', lessons: 12, duration: '3 weeks'},
+  {id: 6, title_so: 'Nidaamyada Agent-yada Badan', title_en: 'Multi-Agent Systems', level: 'advanced', desc_so: 'Abuur nidaamyo AI oo agent-yo badan leh', desc_en: 'Create complex multi-agent AI workflows', lessons: 14, duration: '4 weeks'},
+];
+
+export async function GET(request: NextRequest) {
+  const {searchParams} = new URL(request.url);
+  const level = searchParams.get('level');
+  const search = searchParams.get('search');
+
+  let filtered = [...courses];
+
+  if (level && level !== 'all') {
+    filtered = filtered.filter(c => c.level === level);
+  }
+
+  if (search) {
+    const q = search.toLowerCase();
+    filtered = filtered.filter(c =>
+      c.title_so.toLowerCase().includes(q) ||
+      c.title_en.toLowerCase().includes(q)
+    );
+  }
+
+  return NextResponse.json({
+    courses: filtered,
+    total: filtered.length,
+    ai_recommended: true,
+  });
+}

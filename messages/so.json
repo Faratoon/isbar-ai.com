@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Guriga",
+    "courses": "Koorsooyin",
+    "bot": "AI Bot",
+    "webapp": "Web App",
+    "contact": "Xiriir"
+  },
+  "hero": {
+    "title": "Isbar AI — Kaaliyahaaga AI ee Soomaali",
+    "subtitle": "Baro, Abuur, oo Otomaatigay AI-ga ku qoran Af-Soomaali",
+    "cta": "Bilow Hadda",
+    "cta2": "Tijaabi Bot-ka"
+  },
+  "features": {
+    "title": "Waxaan Bixino",
+    "ai": "AI Sheekaysi",
+    "ai_desc": "La hadal AI-ga Soomaali — hel jawaabo, baro, oo abuur",
+    "courses": "Koorsooyin AI",
+    "courses_desc": "Koorsooyin qaabeysan oo Soomaali ah — bilow ilaa heer sare",
+    "bot": "Telegram Bot",
+    "bot_desc": "Bot dhammaystiran oo channels, groups, iyo AI chat ah",
+    "voice": "Cod Sax",
+    "voice_desc": "Ku hadal oo dhageyso — amarrada codka ee Soomaali",
+    "webapp": "Mini Web App",
+    "webapp_desc": "Dashboard is-dhexgal ah oo ku dhex jira Telegram",
+    "filter": "Filter Caqli leh",
+    "filter_desc": "Talada koorsooyinka ee AI-ku shaqeeya"
+  },
+  "courses": {
+    "title": "Koorsooyinka AI",
+    "subtitle": "Baro AI tillaabo-tillaabo Soomaali",
+    "filter": "Ku shaandhay mawduuc",
+    "all": "Dhammaan",
+    "beginner": "Bilow",
+    "intermediate": "Dhexe",
+    "advanced": "Sare",
+    "enroll": "Diiwaan Gelow",
+    "coming": "Soo Socda"
+  },
+  "bot": {
+    "title": "Baahiye Bot",
+    "subtitle": "Kaaliyahaaga AI ee Telegram",
+    "features": "Astaamaha Bot-ka",
+    "start": "Bilow Bot-ka",
+    "commands": "Amarrada",
+    "ai_chat": "AI Sheekaysi (Nano, GPT, Flux, Sora)",
+    "channels": "Maareeyaha Channel & Group",
+    "schedule": "Qorsheynta Qoraallada",
+    "courses": "Gudbinta Koorsooyinka",
+    "voice": "Amarrada Codka",
+    "premium": "Astaamaha Premium"
+  },
+  "webapp": {
+    "title": "Mini Web App",
+    "subtitle": "Dashboard is-dhexgal ah oo Telegram gudihiisa ah",
+    "welcome": "Ku soo dhawoow Isbar AI",
+    "stats": "Tirakoobkaaga",
+    "courses": "Koorsooyinkayga",
+    "progress": "Horudhac"
+  },
+  "footer": {
+    "rights": "Xuquuqda dhammaan waa la dhawray",
+    "made": "Waxaa laga sameeyay ❤️ bulshada Soomaaliyeed"
+  }
+}

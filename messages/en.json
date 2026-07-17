@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "bot": "AI Bot",
+    "webapp": "Web App",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Isbar AI — Your Somali AI Assistant",
+    "subtitle": "Learn, Create, and Automate with AI in Somali Language",
+    "cta": "Get Started",
+    "cta2": "Try Bot"
+  },
+  "features": {
+    "title": "What We Offer",
+    "ai": "AI Chat",
+    "ai_desc": "Chat with AI in Somali — get answers, learn, and create",
+    "courses": "AI Courses",
+    "courses_desc": "Structured courses from beginner to advanced in Somali",
+    "bot": "Telegram Bot",
+    "bot_desc": "Full-featured bot for channels, groups, and AI chat",
+    "voice": "Voice Support",
+    "voice_desc": "Speak and listen — voice commands in Somali",
+    "webapp": "Mini Web App",
+    "webapp_desc": "Interactive dashboard inside Telegram",
+    "filter": "Smart Filter",
+    "filter_desc": "AI-powered course recommendations"
+  },
+  "courses": {
+    "title": "AI Courses",
+    "subtitle": "Learn AI step by step in Somali",
+    "filter": "Filter by topic",
+    "all": "All",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "enroll": "Enroll Now",
+    "coming": "Coming Soon"
+  },
+  "bot": {
+    "title": "Baahiye Bot",
+    "subtitle": "Your AI assistant on Telegram",
+    "features": "Bot Features",
+    "start": "Start Bot",
+    "commands": "Commands",
+    "ai_chat": "AI Chat (Nano, GPT, Flux, Sora)",
+    "channels": "Channel & Group Manager",
+    "schedule": "Scheduled Posts",
+    "courses": "Course Delivery",
+    "voice": "Voice Commands",
+    "premium": "Premium Features"
+  },
+  "webapp": {
+    "title": "Mini Web App",
+    "subtitle": "Interactive dashboard inside Telegram",
+    "welcome": "Welcome to Isbar AI",
+    "stats": "Your Stats",
+    "courses": "My Courses",
+    "progress": "Progress"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "made": "Made with ❤️ for Somali community"
+  }
+}
