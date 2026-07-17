@@ -4,6 +4,8 @@
     "courses": "Courses",
     "bot": "AI Bot",
     "webapp": "Web App",
+    "schedule": "Schedule",
+    "fasalka": "Classroom",
     "contact": "Contact"
   },
   "hero": {
@@ -25,7 +27,11 @@
     "webapp": "Mini Web App",
     "webapp_desc": "Interactive dashboard inside Telegram",
     "filter": "Smart Filter",
-    "filter_desc": "AI-powered course recommendations"
+    "filter_desc": "AI-powered course recommendations",
+    "schedule": "Study Schedule",
+    "schedule_desc": "30 min daily — Math, Programming & Science for kids",
+    "fasalka": "Private Classroom",
+    "fasalka_desc": "Your private classroom — track your children's progress"
   },
   "courses": {
     "title": "AI Courses",
@@ -58,6 +64,47 @@
     "stats": "Your Stats",
     "courses": "My Courses",
     "progress": "Progress"
+  },
+  "schedule": {
+    "title": "Kids Learning Schedule",
+    "subtitle": "30 min daily — Math, Programming & Science",
+    "daily": "Daily Lesson",
+    "duration": "30 minutes",
+    "lesson": "15 min lesson",
+    "practice": "15 min practice",
+    "grade6": "Grade 6",
+    "grade8": "Grade 8",
+    "highschool": "High School",
+    "math": "Mathematics",
+    "programming": "Programming",
+    "science": "Science",
+    "start_lesson": "Start Lesson",
+    "points": "Your Points",
+    "streak": "Day Streak",
+    "stars": "Stars",
+    "stickers": "Stickers",
+    "subjects": "Subjects",
+    "curriculum": "Canadian Curriculum",
+    "progress": "Your Progress"
+  },
+  "fasalka": {
+    "title": "Private Classroom",
+    "subtitle": "Your classroom — track your children's progress",
+    "login_title": "Welcome to Your Classroom",
+    "login_desc": "Enter student name and email to access",
+    "name": "Student Name",
+    "email": "Email",
+    "enter": "Enter Classroom",
+    "welcome_back": "Welcome back",
+    "today_lesson": "Today's Lesson",
+    "completed": "Completed",
+    "pending": "Pending",
+    "reward": "Reward",
+    "notification": "Notification",
+    "set_time": "Study Time",
+    "choose_time": "Choose time",
+    "save": "Save",
+    "logout": "Logout"
   },
   "footer": {
     "rights": "All rights reserved",

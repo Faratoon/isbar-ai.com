@@ -2,7 +2,7 @@
 
 import {useTranslations} from 'next-intl';
 import {Link, usePathname} from '@/i18n/routing';
-import {Menu, X, Bot, Globe} from 'lucide-react';
+import {Menu, X, Bot, Globe, Calendar, GraduationCap} from 'lucide-react';
 import {useState} from 'react';
 
 export default function Navbar() {
@@ -13,6 +13,8 @@ export default function Navbar() {
   const links = [
     {href: '/', label: t('home')},
     {href: '/courses', label: t('courses')},
+    {href: '/schedule', label: t('schedule')},
+    {href: '/fasalka', label: t('fasalka')},
     {href: '/bot', label: t('bot')},
     {href: '/webapp', label: t('webapp')},
   ];
@@ -23,13 +25,11 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <Bot className="w-8 h-8 text-purple-400 group-hover:text-purple-300 transition-colors" />
             <span className="text-xl font-bold gradient-text">Isbar AI</span>
           </Link>
 
-          {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-6">
             {links.map((link) => (
               <Link
@@ -49,7 +49,6 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile toggle */}
           <button
             onClick={() => setOpen(!open)}
             className="md:hidden text-gray-300 hover:text-white"
@@ -59,7 +58,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {open && (
         <div className="md:hidden glass border-t border-gray-800">
           <div className="px-4 py-3 space-y-2">

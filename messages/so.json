@@ -4,6 +4,8 @@
     "courses": "Koorsooyin",
     "bot": "AI Bot",
     "webapp": "Web App",
+    "schedule": "Jadwal",
+    "fasalka": "Fasalka",
     "contact": "Xiriir"
   },
   "hero": {
@@ -25,7 +27,11 @@
     "webapp": "Mini Web App",
     "webapp_desc": "Dashboard is-dhexgal ah oo ku dhex jira Telegram",
     "filter": "Filter Caqli leh",
-    "filter_desc": "Talada koorsooyinka ee AI-ku shaqeeya"
+    "filter_desc": "Talada koorsooyinka ee AI-ku shaqeeya",
+    "schedule": "Jadwal Barasho",
+    "schedule_desc": "30 daqiiqo maalintii — Maths, Programming & Saynis",
+    "fasalka": "Fasalka Gaarka ah",
+    "fasalka_desc": "Fasalkaaga gaarka ah — ula soco horudhaca carruurtaada"
   },
   "courses": {
     "title": "Koorsooyinka AI",
@@ -58,6 +64,47 @@
     "stats": "Tirakoobkaaga",
     "courses": "Koorsooyinkayga",
     "progress": "Horudhac"
+  },
+  "schedule": {
+    "title": "Jadwalka Barashada Carruurta",
+    "subtitle": "30 daqiiqo maalintii — Maths, Programming & Saynis",
+    "daily": "Casharka Maalinta",
+    "duration": "30 daqiiqo",
+    "lesson": "15 daqiiqo cashar",
+    "practice": "15 daqiiqo layli",
+    "grade6": "Fasalka 6",
+    "grade8": "Fasalka 8",
+    "highschool": "Dugsi Sare",
+    "math": "Xisaab (Math)",
+    "programming": "Programming",
+    "science": "Sayniska",
+    "start_lesson": "Bilow Casharka",
+    "points": "Dhibcahaaga",
+    "streak": "Maalmaha isku xigxiga",
+    "stars": "Xiddigaha",
+    "stickers": "Stickers-ka",
+    "subjects": "Maaddooyinka",
+    "curriculum": "Manhajka Canada",
+    "progress": "Horudhacaaga"
+  },
+  "fasalka": {
+    "title": "Fasalka Gaarka ah",
+    "subtitle": "Fasalkaaga — ula soco horudhaca carruurtaada",
+    "login_title": "Ku soo dhawoow Fasalkaaga",
+    "login_desc": "Gali magaca ardayga iyo email-ka si aad u gasho",
+    "name": "Magaca Ardayga",
+    "email": "Email-ka",
+    "enter": "Gal Fasalka",
+    "welcome_back": "Ku soo dhawoow",
+    "today_lesson": "Casharka Maanta",
+    "completed": "Dhammaystiray",
+    "pending": "Sugaya",
+    "reward": "Abaalmarinta",
+    "notification": "Wargelin",
+    "set_time": "Waqtiga Barashada",
+    "choose_time": "Dooro waqtiga",
+    "save": "Kaydi",
+    "logout": "Ka bax"
   },
   "footer": {
     "rights": "Xuquuqda dhammaan waa la dhawray",
