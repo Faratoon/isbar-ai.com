@@ -1,5 +1,6 @@
 """
 channels.py — Channel & Group management handlers
+No more "Coming Soon" — real features!
 """
 import json
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
@@ -50,8 +51,8 @@ async def groups_menu_handler(update: Update, context: ContextTypes.DEFAULT_TYPE
          InlineKeyboardButton("📋 List", callback_data="grp_list")],
         [InlineKeyboardButton("📢 Post to All", callback_data="grp_post_all"),
          InlineKeyboardButton("👋 Welcome", callback_data="grp_welcome")],
-        [InlineKeyboardButton("📌 Pin", callback_data="grp_pin"),
-         InlineKeyboardButton("🔇 Mute", callback_data="grp_mute")],
+        [InlineKeyboardButton("📌 Pin Message", callback_data="grp_pin"),
+         InlineKeyboardButton("🔇 Mute Member", callback_data="grp_mute")],
         [InlineKeyboardButton("🔙 Back", callback_data="menu_main")],
     ]
     text = f"**👥 Groups** ({len(groups)})\n\n"

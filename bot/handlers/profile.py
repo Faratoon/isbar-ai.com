@@ -1,5 +1,6 @@
 """
 profile.py — User profile & premium handlers
+Premium CTA @Mfaratoon + Google Form + WhatsApp
 """
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes
@@ -8,9 +9,6 @@ async def profile_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     if query:
         await query.answer()
-        msg = query
-    else:
-        msg = update.message
 
     user = update.effective_user
     is_premium = context.user_data.get("premium", False)
@@ -29,9 +27,10 @@ async def profile_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
     keyboard = [
-        [InlineKeyboardButton("⭐ Upgrade to Premium", callback_data="prof_upgrade")],
-        [InlineKeyboardButton("📊 Stats", callback_data="prof_stats"),
-         InlineKeyboardButton("📅 My Schedule", callback_data="prof_scheduled")],
+        [InlineKeyboardButton("⭐ Premium @Mfaratoon", url="https://t.me/Mfaratoon")],
+        [InlineKeyboardButton("💬 WhatsApp Group", url="https://chat.whatsapp.com/BRk1xgsg4ohKAaWN7oDRIe")],
+        [InlineKeyboardButton("📢 Telegram Channel", url="https://t.me/Farsamada")],
+        [InlineKeyboardButton("📝 Google Form Registration", url="https://forms.gle/YOUR_FORM_LINK")],
         [InlineKeyboardButton("🔙 Back", callback_data="menu_main")],
     ]
 
@@ -43,7 +42,12 @@ async def profile_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def premium_info(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
-    keyboard = [[InlineKeyboardButton("🔙 Back", callback_data="menu_profile")]]
+    keyboard = [
+        [InlineKeyboardButton("📞 Contact @Mfaratoon", url="https://t.me/Mfaratoon")],
+        [InlineKeyboardButton("💬 WhatsApp Group", url="https://chat.whatsapp.com/BRk1xgsg4ohKAaWN7oDRIe")],
+        [InlineKeyboardButton("📝 Google Form", url="https://forms.gle/YOUR_FORM_LINK")],
+        [InlineKeyboardButton("🔙 Back", callback_data="menu_profile")],
+    ]
     await query.edit_message_text(
         "**⭐ Premium**\n\n"
         "**Benefits:**\n"
@@ -51,8 +55,13 @@ async def premium_info(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "• All AI models (Midjourney, Sora, Flux)\n"
         "• Priority support\n"
         "• No daily message limit\n"
-        "• Advanced analytics\n\n"
-        "**Coming soon!** 🚀",
+        "• Advanced analytics\n"
+        "• Knowledge base access\n\n"
+        "**Si aad u hesho Premium:**\n"
+        "📞 Contact @Mfaratoon\n"
+        "💬 WhatsApp: https://chat.whatsapp.com/BRk1xgsg4ohKAaWN7oDRIe\n"
+        "📝 Google Form: https://forms.gle/YOUR_FORM_LINK\n\n"
+        "Fadlan nagala soo xiriir si aad u hesho Premium! 🚀",
         reply_markup=InlineKeyboardMarkup(keyboard),
         parse_mode="Markdown"
     )

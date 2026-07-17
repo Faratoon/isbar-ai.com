@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "author": "Faratoon",
+    "total_courses": 4,
+    "total_lessons": 69,
+    "language": "Soomaali",
+    "description": "Koorsooyin AI oo dhammaystiran oo ku qoran Af-Soomaali"
+  },
+  "courses": [
+    {
+      "id": 1,
+      "name": "40 Cashar AI (YouTube)",
+      "type": "youtube",
+      "total_lessons": 40,
+      "lessons": [
+        {"number": 1, "title": "Chatbot Aasaaska", "link": "https://www.youtube.com/watch?v=zVwhZ9jH0qY", "description": "Casharkan waxaad ku baran doontaa aasaaska chatbot-ka."},
+        {"number": 2, "title": "Chatbots Noocyada", "link": "https://www.youtube.com/watch?v=dkMO_-Sa1EY", "description": "Casharkan waxaad ku baran doontaa noocyada chatbots-ka."},
+        {"number": 3, "title": "Knowledge Base Pipeline", "link": "https://www.youtube.com/watch?v=E4nxnDdsPT8", "description": "Casharkan waxaad ku baran doontaa sida loo dhiso knowledge base."},
+        {"number": 4, "title": "ManyChat Bilow", "link": "https://www.youtube.com/watch?v=FlaqS831-nM", "description": "Casharkan waxaad ku baran doontaa sida loo bilowdo ManyChat."},
+        {"number": 5, "title": "Bot Macallin Xisaab", "link": "https://www.youtube.com/watch?v=sbczVS6MDWI", "description": "Casharkan waxaad ku baran doontaa sida loo sameeyo bot xisaabta."},
+        {"number": 6, "title": "ManyChat Hordhac", "link": "https://www.youtube.com/watch?v=y03ckrI0ezc", "description": "Casharkan waxaad ku baran doontaa hordhac ManyChat."},
+        {"number": 7, "title": "Knowledge Base Manus AI", "link": "https://www.youtube.com/watch?v=r_aHgos0dZg", "description": "Casharkan waxaad ku baran doontaa Manus AI knowledge base."},
+        {"number": 8, "title": "Prompt Heer Sare", "link": "https://www.youtube.com/watch?v=60JgZXi930k", "description": "Casharkan waxaad ku baran doontaa sida loo qoro prompts heer sare ah."},
+        {"number": 9, "title": "Prompts Customization", "link": "https://www.youtube.com/watch?v=I2j7AArFIGQ", "description": "Casharkan waxaad ku baran doontaa sida loo customize-gareeyo prompts."},
+        {"number": 10, "title": "Comet AI Browser", "link": "https://www.youtube.com/watch?v=R0xhBLqj6ys", "description": "Casharkan waxaad ku baran doontaa adeegsiga Comet AI Browser."},
+        {"number": 11, "title": "Manus AI Shaqo Fudud", "link": "https://www.youtube.com/watch?v=0S6ArHPgpCA", "description": "Casharkan waxaad ku baran doontaa sida Manus AI kuugu fududeyn karo shaqooyinka."},
+        {"number": 12, "title": "Paal AI Telegram Bot", "link": "https://www.youtube.com/watch?v=SEfx-QRnJsU", "description": "Casharkan waxaad ku baran doontaa sida loo sameeyo bot Telegram ah."},
+        {"number": 13, "title": "Paal AI Part 2", "link": "https://www.youtube.com/watch?v=Jc6ct8O1zLw", "description": "Casharkan waa qaybta labaad ee Paal AI."},
+        {"number": 14, "title": "YouMind AI Waxbarasho", "link": "https://www.youtube.com/watch?v=who5zXdmohA", "description": "Casharkan waxaad ku baran doontaa sida loo isticmaalo YouMind AI."},
+        {"number": 15, "title": "WhatsApp vs Telegram Bot", "link": "https://www.youtube.com/watch?v=N6Gu_mHetIc", "description": "Casharkan waxaad ku baran doontaa farqiga u dhexeeya WhatsApp Bot iyo Telegram Bot."},
+        {"number": 16, "title": "Custom ChatGPT", "link": "https://www.youtube.com/watch?v=aXrrjehQgh0", "description": "Casharkan waxaad ku baran doontaa sida loo sameeyo Custom ChatGPT."},
+        {"number": 17, "title": "Prompt Instructions", "link": "https://www.youtube.com/watch?v=dnqFGfKLb4Y", "description": "Casharkan waxaad ku baran doontaa tilmaamaha loo qoro prompts."},
+        {"number": 18, "title": "Gemini GEMS AI", "link": "https://www.youtube.com/watch?v=vaEaWf1-VWU", "description": "Casharkan waxaad ku baran doontaa sida loo isticmaalo Gemini GEMS AI."},
+        {"number": 19, "title": "Perplexity AI Mobile", "link": "https://www.youtube.com/watch?v=EUvNqeLF0AA", "description": "Casharkan waxaad ku baran doontaa adeegsiga Perplexity AI mobile-ka."},
+        {"number": 20, "title": "AI Quiz Tool", "link": "https://www.youtube.com/watch?v=XlopdHYs2aI", "description": "Casharkan waxaad ku baran doontaa sida loo sameeyo quiz-yo AI."},
+        {"number": 21, "title": "ManyChat 3", "link": "https://www.youtube.com/watch?v=L9WwTphvuYU", "description": "Casharkan waa qaybta saddexaad ee ManyChat."},
+        {"number": 22, "title": "FB Messenger Bot", "link": "https://www.youtube.com/watch?v=2IFflSsAzys", "description": "Casharkan waxaad ku baran doontaa sida loo sameeyo bot Facebook Messenger-ka."},
+        {"number": 23, "title": "Messenger Customer Service", "link": "https://www.youtube.com/watch?v=On6q9Xc0--Q", "description": "Casharkan waxaad ku baran doontaa sida Messenger bot loogu isticmaalo adeegga macaamiisha."},
+        {"number": 24, "title": "Botpress Knowledge Base", "link": "https://www.youtube.com/watch?v=mNLJ-8dZwvg", "description": "Casharkan waxaad ku baran doontaa sida loo dhiso knowledge base Botpress."},
+        {"number": 25, "title": "WhatsApp Telegram Marketing", "link": "https://www.youtube.com/watch?v=5Lu9jcaP220", "description": "Casharkan waxaad ku baran doontaa sida loogu isticmaalo WhatsApp iyo Telegram suuqgeynta."},
+        {"number": 26, "title": "Canva AI Sawirro", "link": "https://www.youtube.com/watch?v=5tEtbYLetkU", "description": "Casharkan waxaad ku baran doontaa sida looga faa'iidaysto Canva AI."},
+        {"number": 27, "title": "AI Sawir Samee", "link": "https://www.youtube.com/watch?v=wu4oubHInMY", "description": "Casharkan waxaad ku baran doontaa sida loo sameeyo sawirro AI."},
+        {"number": 28, "title": "VEO 3 Google Video AI", "link": "https://www.youtube.com/watch?v=JBDMbL8VzGo", "description": "Casharkan waxaad ku baran doontaa sida loo isticmaalo VEO 3 Google Video AI."},
+        {"number": 29, "title": "Quiz DeepSeek Telegram", "link": "https://www.youtube.com/watch?v=mGxS8tw-fUc", "description": "Casharkan waxaad ku baran doontaa sida loo sameeyo quiz DeepSeek ah oo ku yaal Telegram."},
+        {"number": 30, "title": "Monica AI Af-Soomaali", "link": "https://www.youtube.com/watch?v=RHq7027Y4U4", "description": "Casharkan waxaad ku baran doontaa sida loo isticmaalo Monica AI oo ah luuqadda Soomaaliga."},
+        {"number": 31, "title": "Telegram Bot A to Z", "link": "https://www.youtube.com/watch?v=TwKLnqnjxsQ", "description": "Casharkan waxaad ku baran doontaa dhammaan waxa ku saabsan Telegram Bot."},
+        {"number": 32, "title": "Google Bard vs Meta AI", "link": "https://www.youtube.com/watch?v=bFtgqnhEX88", "description": "Casharkan waxaad ku baran doontaa isbarbardhiga Google Bard iyo Meta AI."},
+        {"number": 33, "title": "Offline AI Apps", "link": "https://www.youtube.com/watch?v=Pn1kU1et7oI", "description": "Casharkan waxaad ku baran doontaa barnaamijyada AI-ga ee shaqeeya internet la'aan."},
+        {"number": 34, "title": "WhatsApp 2025", "link": "https://www.youtube.com/watch?v=aJFGVD5vilM", "description": "Casharkan waxaad ku baran doontaa sida loo isticmaalo WhatsApp sannadka 2025."},
+        {"number": 35, "title": "Linux Hordhac", "link": "https://www.youtube.com/watch?v=I2F1-5dk3hQ", "description": "Casharkan waxaad ku baran doontaa hordhac ku saabsan Linux."},
+        {"number": 36, "title": "Linux ku Soo Dag", "link": "https://www.youtube.com/watch?v=7K4aibOiPQ4", "description": "Casharkan waxaad ku baran doontaa sida Linux loogu soo dejiyo."},
+        {"number": 37, "title": "Apps Internet Security", "link": "https://www.youtube.com/watch?v=_RWyy40XfM0", "description": "Casharkan waxaad ku baran doontaa barnaamijyada ammaanka internetka."},
+        {"number": 38, "title": "AI Video Editing Somalia", "link": "https://www.youtube.com/watch?v=7MB2xCbLt1M", "description": "Casharkan waxaad ku baran doontaa sida loo tafatiro videos-ka AI luuqadda Soomaaliga."},
+        {"number": 39, "title": "Thumbnail Professional", "link": "https://www.youtube.com/watch?v=R2g7f5kXpI0", "description": "Casharkan waxaad ku baran doontaa sida loo sameeyo Thumbnail heer sare ah."},
+        {"number": 40, "title": "AI Photo Animation", "link": "https://www.youtube.com/watch?v=M9m-dIe46qM", "description": "Casharkan waxaad ku baran doontaa sida sawirrada looga dhigo animation AI."}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AI Video Editing (Loom)",
+      "type": "loom",
+      "total_lessons": 9,
+      "lessons": [
+        {"number": 1, "title": "InVideo Fundamentals", "link": "https://www.loom.com/share/8465169f3ed34080a9223c7dd8cafb37", "description": "Master InVideo: templates, text-to-video, iyo AI layouts."},
+        {"number": 2, "title": "InVideo – Creating Video from Text", "link": "https://www.loom.com/share/77792231bc8140008e8eeaab77b3d788", "description": "Text-to-video conversion, image integration, free vs paid."},
+        {"number": 3, "title": "Pictory.ai Introduction", "link": "https://www.loom.com/share/a63c2b5554274df2a7e97975851834ef", "description": "Pictory for automation iyo social media."},
+        {"number": 4, "title": "Pictory Professional Editing Techniques", "link": "https://www.loom.com/share/5df200096f084354bfd41ca0551edf2f", "description": "Detailed video editing iyo Pictory functionality."},
+        {"number": 5, "title": "Pictory.ai – AI-Powered Video Editing", "link": "https://www.loom.com/share/f03cfff5dc0a4222842ba074b123ab39", "description": "AI video editing capabilities (Play Store & web)."},
+        {"number": 6, "title": "Lumen5 – Utilizing Ready-made Templates", "link": "https://www.loom.com/share/1f638be8ca1a4c5a8a110921803e54bd", "description": "Video template creation using Lumen5."},
+        {"number": 7, "title": "Lumen5 Editing Interface", "link": "https://www.loom.com/share/b7c491c56fff4926a2cdc8a92730e9f0", "description": "In-depth review of Lumen5 web-based editing tools."},
+        {"number": 8, "title": "Lumen5 – Audio and Visual Enhancements", "link": "https://www.loom.com/share/42b2100320884386ada6af388c9e6495", "description": "Integrating audio, imagery, iyo visual improvements."},
+        {"number": 9, "title": "Audio Refinement and Cutting – Lumen5", "link": "https://www.loom.com/share/1e44a27acab9467582d965fa4c9bb4a1", "description": "Techniques for audio refinement within Lumen5."}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dropshipping iyo Zendrop AI",
+      "type": "loom",
+      "total_lessons": 10,
+      "lessons": [
+        {"number": 1, "title": "MAXAA KU DOORNAY ZENDROP", "link": "https://www.loom.com/share/a5f8d34a8bac4bd9be5d0c4b159286cd", "description": "Why choose Zendrop for dropshipping."},
+        {"number": 2, "title": "Zendrop AI Iyo Dropshippingka", "link": "https://www.loom.com/share/9f2291c7056e45beae291b2505caf496", "description": "Using Zendrop AI in dropshipping."},
+        {"number": 3, "title": "Sida Loo Sameeyo Telegama AI Advanced ah", "link": "https://www.loom.com/share/6c78f630461d4fccb835f072e5edbfe1", "description": "Building advanced Telegram AI bot."},
+        {"number": 4, "title": "AI Dropshipping Sida Hawsha u Fududeeyey", "link": "https://www.loom.com/share/27c48641a1ed42c084b2d637501ff409", "description": "How AI simplifies dropshipping work."},
+        {"number": 5, "title": "Sida Loogu Shubo Appka Zendrop", "link": "https://www.loom.com/share/0ac9d7cd352b462292a42e657fe0668d", "description": "How to install Zendrop app."},
+        {"number": 6, "title": "QAABKA AI SHAQADA U FUDUDEEYEY EE IGU CAJIIBSAN DROPSHIPPING", "link": "https://www.loom.com/share/96535223749b4347919003b77b1765af", "description": "Amazing AI that simplifies dropshipping."},
+        {"number": 7, "title": "ISKU XIDHKA HALKII AAN KA SOO BILOWNAY NO TECH", "link": "https://www.loom.com/share/9913a2b3c4f84de0bc874a69e21fb921", "description": "Connecting where we started with No Tech."},
+        {"number": 8, "title": "DULMAR GUUD OO KU SAABSAN WAXAA BARANAY", "link": "https://www.loom.com/share/600f81758476491bbbbbc4e8518fc9d5", "description": "General overview of what we learned."},
+        {"number": 9, "title": "ADEEGYADA UGU DAMBEYEY EE DROPSHIPPING DULMAR GUUD", "link": "https://www.loom.com/share/0b5a69dbae8249f38c71b0146645ee77", "description": "Latest dropshipping services overview (Everything AI)."},
+        {"number": 10, "title": "DHAMAYSTIRE GUUD - SIDA HAWSHA AI INOOGU DHAMEEYEY", "link": "https://www.loom.com/share/21ed0c84d67c425cb4aa9a0636c233fd", "description": "Final summary - how AI completed the work."}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Resources & Community",
+      "type": "links",
+      "total_lessons": 9,
+      "lessons": [
+        {"number": 1, "title": "WhatsApp Group (Quiz & Support)", "link": "https://chat.whatsapp.com/BRk1xgsg4ohKAaWN7oDRIe", "description": "Join for quizzes and support."},
+        {"number": 2, "title": "Telegram Channel (Updates & Files)", "link": "https://t.me/+eJxxMKtunMcwODhk", "description": "Join for updates and files."},
+        {"number": 3, "title": "Free AI Channel (Tools & Tips)", "link": "https://t.me/Farsamada", "description": "Free AI tools and tips."},
+        {"number": 4, "title": "AI-Chatbot Learning WhatsApp", "link": "https://chat.whatsapp.com/KzkcjwraeYhCsUXaexgNyM", "description": "Join for AI & Chatbot learning."},
+        {"number": 5, "title": "AI Video Editing WhatsApp", "link": "https://chat.whatsapp.com/G9phNqLyJ3L2RV4lprLUb7", "description": "Join for AI video editing."},
+        {"number": 6, "title": "AI Automation WhatsApp", "link": "https://chat.whatsapp.com/BRk1xgsg4ohKAaWN7oDRIe", "description": "Join for AI automation."},
+        {"number": 7, "title": "YouTube Channel", "link": "https://m.youtube.com/user/MrFaraton", "description": "All video lessons on YouTube."},
+        {"number": 8, "title": "Facebook Community", "link": "https://www.facebook.com/soomaalipodcast", "description": "Facebook community & live sessions."},
+        {"number": 9, "title": "Substack (Blog)", "link": "https://mfaratoon.substack.com/", "description": "New courses and AI articles."}
+      ]
+    }
+  ]
+}

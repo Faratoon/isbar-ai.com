@@ -35,7 +35,7 @@ from handlers.channels import (
 from handlers.scheduler import (
     schedule_menu, schedule_new_start,
     receive_sched_content, receive_sched_time,
-    view_scheduled_posts, scheduler,
+    view_scheduled_posts, get_scheduler,
     SCHED_TEXT, SCHED_TIME,
 )
 from handlers.profile  import profile_command, premium_info
@@ -46,9 +46,9 @@ from handlers.admin    import (
     ban_user_start, receive_ban_id,
     ADMIN_BROADCAST_TEXT, ADMIN_PREMIUM_ID, ADMIN_BAN_ID,
 )
-from handlers.courses  import learn_ai_handler, support_handler, info_handler
+from handlers.courses  import learn_ai_handler, course_detail, quiz_start, quiz_answer, knowledge_base_handler, support_handler, info_handler, QUIZ
 from handlers.callbacks import (
-    main_menu_cb, action_cancel, coming_soon_cb,
+    main_menu_cb, action_cancel,
     broadcast_menu_cb, settings_menu_cb,
     set_language_cb, save_language_cb,
     notifications_cb, save_notif_cb, clear_memory_cb,
@@ -184,8 +184,19 @@ def build_conversations():
         per_message=False, allow_reentry=True,
     )
 
+    quiz_conv = ConversationHandler(
+        entry_points=[CallbackQueryHandler(quiz_start, pattern=r"^quiz_\d+$")],
+        states={
+            QUIZ: [
+                CallbackQueryHandler(quiz_answer, pattern="^quiz_ans_"),
+            ],
+        },
+        fallbacks=[CommandHandler("cancel", lambda u, c: ConversationHandler.END)],
+        per_message=False, allow_reentry=True,
+    )
+
     return [add_ch, broadcast, delete_post, edit_post, sched, welcome,
-            adm_bc, adm_prem, adm_ban]
+            adm_bc, adm_prem, adm_ban, quiz_conv]
 
 
 def main():
@@ -231,8 +242,11 @@ def main():
         ("^menu_profile$",     profile_command),
         ("^menu_support$",     support_handler),
         ("^menu_info$",        info_handler),
+        (r"^learn_\d+$",       course_detail),
+        (r"^quiz_\d+$",        quiz_start),
+        (r"^kb_\d+$",          knowledge_base_handler),
+        (r"^quiz_ans_",         quiz_answer),
         ("^ai_(nano|midjourney|sora|gpt_image|flux|veo|chat)$", select_ai_model),
-        ("^learn_",            learn_ai_handler),
         ("^(ch_list|grp_list)$",  list_channels),
         ("^rm_(channel|group)_.+", remove_channel_cb),
         ("^sched_list$",       view_scheduled_posts),
@@ -244,7 +258,6 @@ def main():
         ("^notif_(on|off)$",   save_notif_cb),
         ("^set_clear_mem$",    clear_memory_cb),
         ("^adm_stats$",        admin_stats),
-        ("^(ch_stats|grp_pin|grp_mute|grp_kick|grp_announce|adm_users|adm_unban)$", coming_soon_cb),
         ("^action_cancel$",    action_cancel),
     ]
     for pattern, fn in cbs:
@@ -264,7 +277,8 @@ def main():
     ))
 
     # Start
-    scheduler.start()
+    sched = get_scheduler()
+    sched.start()
     logger.info("Scheduler started.")
 
     print("\n" + "="*50)

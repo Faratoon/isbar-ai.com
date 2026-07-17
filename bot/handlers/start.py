@@ -1,5 +1,6 @@
 """
 start.py — Start, Help, Menu commands
+With Google Form + Premium CTA + WhatsApp
 """
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes
@@ -22,8 +23,12 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"Waxaan kaa caawin karaa:\n"
         f"🤖 AI Chat (Nano, GPT, Flux, Sora)\n"
         f"📢 Maareynta Channels & Groups\n"
-        f"📚 Koorsooyin AI oo Soomaali ah\n"
-        f"📅 Qorsheynta qoraallada\n\n"
+        f"📚 Koorsooyin AI oo Soomaali ah (69 cashar)\n"
+        f"📅 Qorsheynta qoraallada\n"
+        f"🧪 Quiz & Imtixaan\n\n"
+        f"⭐ **Premium:** @Mfaratoon\n"
+        f"💬 **WhatsApp:** https://chat.whatsapp.com/BRk1xgsg4ohKAaWN7oDRIe\n"
+        f"📝 **Google Form:** https://forms.gle/YOUR_FORM_LINK\n\n"
         f"Hoos ka dooro waxa aad rabto 👇",
         reply_markup=InlineKeyboardMarkup(keyboard),
         parse_mode="Markdown"
@@ -50,6 +55,10 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "/settings — Settings-ka\n"
         "/clear — Nadiifi xusuusta\n"
         "/admin — Admin panel\n\n"
+        "**Links:**\n"
+        "⭐ Premium: @Mfaratoon\n"
+        "💬 WhatsApp: https://chat.whatsapp.com/BRk1xgsg4ohKAaWN7oDRIe\n"
+        "📝 Google Form: https://forms.gle/YOUR_FORM_LINK\n\n"
         "**Support:** @Mfaratoon",
         parse_mode="Markdown"
     )

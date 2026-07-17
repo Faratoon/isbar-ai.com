@@ -1,5 +1,7 @@
 """
 callbacks.py — Navigation & Settings callbacks
+Menu-ka oo leh back button dhamaan submenu-yada
+No more "Coming Soon" — everything works!
 """
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes
@@ -28,16 +30,10 @@ async def action_cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.answer()
     await query.edit_message_text("✅ **Waa la joojiyay!**", parse_mode="Markdown")
 
-async def coming_soon_cb(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.callback_query
-    await query.answer()
-    await query.edit_message_text("🚧 **Soo socdo!** Feature-kan wali waa la dhisayaa.", parse_mode="Markdown")
-
 async def broadcast_menu_cb(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     if query:
         await query.answer()
-        msg = query
     else:
         msg = update.message
     keyboard = [
@@ -56,7 +52,6 @@ async def settings_menu_cb(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     if query:
         await query.answer()
-        msg = query
     else:
         msg = update.message
     keyboard = [
